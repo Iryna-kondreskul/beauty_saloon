@@ -1,0 +1,174 @@
+:root{
+    --primery-text-color:#191D23;
+    --text-button:#ffffff;
+}
+
+/* -----------------header---------------------- */
+.container-cover{
+    background-image: url(../images/backgroundOpt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.social-link-icon{
+    /* outline: 2px solid tomato;   */
+    width: 45px;
+    height: 45px;
+    fill: var(--primery-text-color);
+}
+
+.social-link-icon:hover,
+.social-link-icon:focus{
+    fill: #1a1675;
+}
+
+.list-social{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.link-list:not(:last-child){
+    margin-right: 12px;
+}
+
+.focus:hover,
+.focus:focus{
+    fill: #1a1675;
+}
+
+/* =============================== */
+/* клас для секції  Назва салона*/
+.salon-name-position{
+    /* outline: 2px solid tomato; */
+    width: 306px;
+    height: 73px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+    text-align: center;
+
+    text-shadow: 1px 1px 0 0 #fff;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* заголовок назви салону */
+.title-salon{
+    font-family: "Marmelad", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #191d23;
+
+    /* text-shadow: 1px 1px 0 0 #000; */
+
+}
+
+/* adress-salon */
+.adress-salon{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #191d23;
+}
+
+/* -----------------Робочі часи---------------------- */
+/* Робочі часи */
+.work-list{
+    /* outline: 2px solid tomato; */
+    width: 171px;
+    height: 79px;
+    padding: 15px;
+    margin-bottom: 114px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.title-time{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #191d23;
+    padding-bottom: 6px;
+
+    text-shadow: 1px 1px 0 0 #fff;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* ------------------кнопки--------------------- */
+/* класс для  li секцiї з кнопками*/
+.list-btn:not(:last-child) {
+    margin-bottom: 30px;   
+}
+
+.button{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+
+    padding-left: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    background-color: var(--primery-text-color);
+    color: var(--text-button);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer; 
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    width: 355px;
+    height: 60px;
+}
+
+.button:hover,
+.button:focus{
+ background-color: #1a1675;
+}
+
+/* .button::before{
+    content: "";
+    margin-right: 41px;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--text-button);   
+
+} */
+
+.button-icon{
+    margin-right: 40px;
+    padding-top: 8px;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    background-color: var(--text-button);
+    background-size:contain;
+  
+}
+
+
+/* логичний заголовок за допомогою якого тбеба щось заховать */
+.visually-hidden{
+   position: absolute; 
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   clear: rect(0 0 0 0);
+   overflow: hidden;
+}
+

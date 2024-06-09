@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+         <!-- Сначала нормализатор -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+/>
+<link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <p>Ваші дані</p>
+    <form>
+        <label>
+          <input 
+          type="text" 
+          name="name" 
+          autofocus
+          required 
+          placeholder=" Введіть ім’я та прізвище"
+          minlength
+           />
+        </label>
+        <label>
+          <input 
+          type="tel" 
+          name="phone_nun,er" 
+          placeholder="Номер телефону"
+          required
+          minlength 
+          />
+        </label>
+        <label>
+          <input 
+          type="text" 
+          name="birthday" 
+          autofocus
+          placeholder="Дата народження" 
+          required 
+          minlength
+          />
+        </label>
+        <label>
+          <input 
+          textarea 
+          rows="5"
+          type="text" 
+          name="comment" 
+          autofocus
+          placeholder="Коментар" 
+          />
+        </label>
+        <p>Нагадування</p>
+        <label>
+            <input 
+            type="checkbox" 
+            name="size"
+            value="agreement"
+            checked
+            required 
+            >
+           <p>Я погоджуюся з 
+            <span>Угодою користувача</span> та 
+            <span>Політика конфіденційності.</span>  
+          </p> 
+        </label>
+        <button type="submit">Оформити замовлення</button>
+      </form>
+</body>
+</html>

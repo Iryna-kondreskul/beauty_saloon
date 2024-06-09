@@ -1,0 +1,107 @@
+:root{
+    --primery-text-color:#191D23;
+    --text-button:#ffffff;
+    --background-color-button:#BD9176;
+    --page-backgraund:#958181;
+
+    --color-btn-choice: #bd9176;
+    --btn-shadow-choice:  0 0 4px 0 rgba(0, 0, 0, 0.25);
+
+    --text-choise: "Manrope", sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+address{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+   
+    height: 812px; 
+    font-family: SemiBold, Raleway, Regular, sans-serif;
+    
+}
+
+/* прибираємо маркери в li */
+.list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* прибираємо підкреслення у силці */
+.link-none{
+    text-decoration: none;
+}
+
+/*  */
+.container{
+   
+    height: 812px;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;   
+}
+
+/* клас для логотипа */
+.logo-icon{
+    /* outline: 2px solid tomato;  */
+    width: 80px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 15px;
+    /* margin-right: 100px; */
+}
+
+/* клас для секції  header*/
+.page-header{
+    /* outline: 2px solid tomato;  */
+    margin-bottom: 150px;
+    height: 65px;
+}
+
+.main-nav{
+    display:inline-flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+
+/* кнопка вибір */
+.btn-choice{
+    display: inline-flex;
+    width: 355px;
+    height: 60px; 
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--color-btn-choice);
+    box-shadow: var(--btn-shadow-choice);
+    color: var(--text-button);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer; 
+    padding: 18px 105px;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}

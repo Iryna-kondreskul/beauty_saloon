@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service selection</title>
+         <!-- Спочатку нормализатор -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marmelad&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marmelad&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./css/common.css">
+<link rel="stylesheet" href="./css/ServiceSelection.css">
+</head>
+<body>
+    <div class="container">
+        <div class="blok-services">
+            <a href="./test1.html">
+                <svg class="logo-icon logo-icon-services">
+                    <use href="./symbol-defs2.svg#icon-Logotype"></use>
+                </svg>   
+            </a>
+            <input type="text" class="input-services">
+        </div>
+        
+
+     
+
+
+        <ul class="list drop-down-list">
+            <!-- <li class="menu">                   
+                    <button class="drop-down-list-btn">
+                      Витратні матеріали  
+                      <svg class="btn-symbol-right supplies" width="7" height="15">
+                            <use href="./symbol-defs.svg#icon-leftChoise"></use>
+                        </svg>
+                    </button>
+            
+                
+                <ul class="list submenu">
+                    <li class="list-li">
+                        <p class="text-haircut">Маска для волосся</p>
+                       <p class="price-haircut">5 $ 
+                        <span class="time-haircut">1 година</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+    
+                    <li class="list-li">
+                        <p class="text-haircut">Рушник</p>
+                       <p class="price-haircut">8 $ 
+                        <span class="time-haircut">15 хвилин</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+    
+                    <li class="list-li">
+                        <p class="text-haircut">Філер</p>
+                       <p class="price-haircut">5 $ 
+                        <span class="time-haircut">1 година</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+    
+                    <li class="list-li">
+                        <p class="text-haircut">Cehko color</p>
+                       <p class="price-haircut">5 $ 
+                        <span class="time-haircut"></span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">Coiffance масло</p>
+                       <p class="price-haircut">5 $ 
+                        <span class="time-haircut"></span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">MЛRaeAS</p>
+                       <p class="price-haircut">5 $ 
+                        <span class="time-haircut">1 година</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+                 
+                </ul>
+            </li> -->
+
+            <!-- ============================ -->
+            <li class="menu">
+                <!-- <p class="text-services">Дитячі стрижки</p> -->
+                
+                <button type="button" class="drop-down-list-btn">
+                    Витратні матеріали
+                    <!-- <span class=" visually-hidden">Редагувати</span> -->
+                    <svg class="btn-symbol-right" width="7" height="15">
+                        <use href="./symbol-defs.svg#icon-leftChoise"></use>
+                    </svg>
+                </button>
+
+                <ul class="list submenu">
+                    <li class="list-li">
+                        <p class="text-haircut">Маска для волосся</p>
+                       <p class="price-haircut">5 $ 
+                        <span class="time-haircut">1 година</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+    
+                    <li class="list-li">
+                        <p class="text-haircut">Рушник</p>
+                       <p class="price-haircut">8 $ 
+                        <span class="time-haircut">15 хвилин</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+    
+                    <li class="list-li">
+                        <p class="text-haircut">Філер</p>
+                       <p class="price-haircut">5 $ 
+                        <span class="time-haircut">1 година</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+    
+                    <li class="list-li">
+                        <p class="text-haircut">Cehko color</p>
+                       <p class="price-haircut">5 $ 
+                        <span class="time-haircut"></span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">Coiffance масло</p>
+                       <p class="price-haircut">5 $ 
+                        <span class="time-haircut"></span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">MЛRaeAS</p>
+                       <p class="price-haircut">5 $ 
+                        <span class="time-haircut">1 година</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+                 
+                </ul>
+    
+        </li>
+
+            <li class="menu">
+                    <!-- <p class="text-services">Дитячі стрижки</p> -->
+                    Дитячі стрижки
+                    <a>
+                        <!-- <span class=" visually-hidden">Редагувати</span> -->
+                        <svg class="btn-symbol-right" width="7" height="15">
+                            <use href="./symbol-defs.svg#icon-leftChoise"></use>
+                        </svg>
+                    </a>
+
+                    <ul class="list submenu">
+                        <li class="list-li">
+                            <p class="text-haircut">Стрижка дитяча жіноча</p>
+                           <p class="price-haircut">Від 200 $ 
+                            <span class="time-haircut">45 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Дитячий чубчик</p>
+                           <p class="price-haircut">Від 60 $ 
+                            <span class="time-haircut">30 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Стрижка чоловіча дитяча</p>
+                           <p class="price-haircut">Від 150 $ 
+                            <span class="time-haircut">40 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Часткова чоловіча</p>
+                           <p class="price-haircut">Від 110 $ 
+                            <span class="time-haircut">40 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+                     
+                    </ul>
+        
+            </li>
+
+         
+            <li class="menu">
+                    <!-- <p class="text-services">Жіночі стрижки</p> -->
+                   
+                    <button>
+                        Жіночі стрижки
+                        <!-- <span class=" visually-hidden">Редагувати</span> -->
+                        <svg class="btn-symbol-right" width="7" height="15">
+                            <use href="./symbol-defs.svg#icon-leftChoise"></use>
+                        </svg>
+                    </button>
+                    <ul class="list submenu">
+                        <li class="list-li">
+                            <p class="text-haircut">11 Каре</p>
+                           <p class="price-haircut">Від 200 $ 
+                            <span class="time-haircut">1 година</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Стрижка жіноча</p>
+                           <p class="price-haircut">Від 200 $ 
+                            <span class="time-haircut">45 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Гривка</p>
+                           <p class="price-haircut">Від 60 $ 
+                            <span class="time-haircut">30 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Полірування (шліфування) <br> || довжина</p>
+                           <p class="price-haircut">Від 180 $ 
+                            <span class="time-haircut">1 година</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Миття волосся | довжина</p>
+                           <p class="price-haircut">Від 35 $ 
+                            <span class="time-haircut">15 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Сушка феном без матеріалу <br> | довжина</p>
+                           <p class="price-haircut">Від 35 $ 
+                            <span class="time-haircut">15 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Фарбування брів</p>
+                           <p class="price-haircut">Від 100 $ 
+                            <span class="time-haircut">50 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Корекція брів воском</p>
+                           <p class="price-haircut">Від 100 $ 
+                            <span class="time-haircut">1 година</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Корекція брів 2</p>
+                           <p class="price-haircut">Від 70 $ 
+                            <span class="time-haircut">30 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Депіляція верхньої губи воском</p>
+                           <p class="price-haircut">Від 80 $ 
+                            <span class="time-haircut">1 година</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Парафінотерапія рук</p>
+                           <p class="price-haircut">Від 200 $ 
+                            <span class="time-haircut">1 година</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Відновлення волосся</p>
+                           <p class="price-haircut">Від 300 $ 
+                            <span class="time-haircut">2 години, 50 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+                     
+                    </ul>
+                
+            </li>
+            <li class="menu">
+                    <!-- <p class="text-services">Укладання волосся</p> -->
+                    Укладання волосся
+                    <a>
+                        <!-- <span class=" visually-hidden">Редагувати</span> -->
+                        <svg class="btn-symbol-right" width="7" height="15">
+                            <use href="./symbol-defs.svg#icon-leftChoise"></use>
+                        </svg>
+                    </a>
+
+                    <ul class="list submenu">
+                        <li class="list-li">
+                            <p class="text-haircut">Вирівнювання праскою || довжина</p>
+                           <p class="price-haircut">Від 250 $ 
+                            <span class="time-haircut">50 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Зачіска весільна</p>
+                           <p class="price-haircut">Від 700 $ 
+                            <span class="time-haircut">2 години</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Зачіска пробна весільна</p>
+                           <p class="price-haircut">Від 300 $ 
+                            <span class="time-haircut">1 година, 45 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Накрутка на керамічну плойку <br> | довжина</p>
+                           <p class="price-haircut">Від 200 $ 
+                            <span class="time-haircut">1 година</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Накрутка на керамічну плойку <br> || довжина</p>
+                           <p class="price-haircut">Від 350 $ 
+                            <span class="time-haircut">1 година</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Накрутка на керамічну плойку <br> ||| довжина</p>
+                           <p class="price-haircut">Від 450 $ 
+                            <span class="time-haircut">1 година</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Плетіння джгут</p>
+                           <p class="price-haircut">Від 50 $ 
+                            <span class="time-haircut">30 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Плетіння з канеколоном</p>
+                           <p class="price-haircut">Від 100 $ 
+                            <span class="time-haircut">45 хвидин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Плетіння з V прядок</p>
+                           <p class="price-haircut">Від 80 $ 
+                            <span class="time-haircut">45 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Плетіння колосок</p>
+                           <p class="price-haircut">Від 50 $ 
+                            <span class="time-haircut">30 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Укладання дифузором <br> || довжина</p>
+                           <p class="price-haircut">Від 400 $ 
+                            <span class="time-haircut">1 година, 30 хвидин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Укладання методом "Брашинг" <br> || довжина</p>
+                           <p class="price-haircut">Від 150 $ 
+                            <span class="time-haircut">45 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Укладання феном | довжина</p>
+                           <p class="price-haircut">Від 100 $ 
+                            <span class="time-haircut">40 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+                     
+                    </ul>
+            </li>
+            <li class="menu">
+                    <!-- <p class="text-services">Фарбування волосся</p> -->
+                    Фарбування волосся
+                    <a>
+                        <!-- <span class=" visually-hidden">Редагувати</span> -->
+                        <svg class="btn-symbol-right" width="7" height="15">
+                            <use href="./symbol-defs.svg#icon-leftChoise"></use>
+                        </svg>
+                    </a>
+
+                    <ul class="list submenu">
+                        <li class="list-li">
+                            <p class="text-haircut">Мелірування довжина | <br>(Без урахування матеріалу)</p>
+                           <p class="price-haircut">Від 300 $ 
+                            <span class="time-haircut">3 години</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Фарбування</p>
+                           <p class="price-haircut">Від 150 $ 
+                            <span class="time-haircut">2 години</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Фарбування довжина |</p>
+                           <p class="price-haircut">Від 250 $ 
+                            <span class="time-haircut">2 години</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+        
+                        <li class="list-li">
+                            <p class="text-haircut">Колорування | довжина</p>
+                           <p class="price-haircut">Від 500 $ 
+                            <span class="time-haircut">4 години</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Складне фарбування ||</p>
+                           <p class="price-haircut">Від 700 $ 
+                            <span class="time-haircut">5 годин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Складне фарбування||| довжина</p>
+                           <p class="price-haircut">Від 1000 $ 
+                            <span class="time-haircut">5 годин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Тонування OSIS || довжина</p>
+                           <p class="price-haircut">Від 70 $ 
+                            <span class="time-haircut">15 хвилин</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+
+                        <li class="list-li">
+                            <p class="text-haircut">Хімічна завивка | довжина</p>
+                           <p class="price-haircut">Від 450 $ 
+                            <span class="time-haircut">3 години</span></p>
+                           <button type="button" class="btn-haircut">
+                           <svg class="plus">
+                            <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                           </svg>
+                            </button>
+                        </li>
+                    </ul>
+            </li>
+            <li class="menu">
+                <!-- <p class="text-services">Чоловічі стрижки</p> -->
+                Чоловічі стрижки
+                 <a>
+                        <!-- <span class=" visually-hidden">Редагувати</span> -->
+                    <svg class="btn-symbol-right" width="7" height="15">
+                        <use href="./symbol-defs.svg#icon-leftChoise"></use>
+                    </svg>
+                </a>
+
+                
+                <ul class="list submenu">
+                    <li class="list-li">
+                        <p class="text-haircut">Наголо</p>
+                       <p class="price-haircut">Від 60 $ 
+                        <span class="time-haircut">30 хвилин</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+    
+                    <li class="list-li">
+                        <p class="text-haircut">Наголо під шейвер</p>
+                       <p class="price-haircut">Від 80 $ 
+                        <span class="time-haircut">30 хвилин</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+    
+                    <li class="list-li">
+                        <p class="text-haircut">Стрижка чоловіча</p>
+                       <p class="price-haircut">Від 150 $ 
+                        <span class="time-haircut">40 хвилин</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+    
+                    <li class="list-li">
+                        <p class="text-haircut">"Їжак"</p>
+                       <p class="price-haircut">Від 150 $ 
+                        <span class="time-haircut">1 година</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">Часткова стрижка</p>
+                       <p class="price-haircut">Від 110 $ 
+                        <span class="time-haircut">30 хвилин</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">Стрижка вкус</p>
+                       <p class="price-haircut">Від 10 $ 
+                        <span class="time-haircut">10 хвилин</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">Стрижка бороди</p>
+                       <p class="price-haircut">Від 50 $ 
+                        <span class="time-haircut">1 година</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">Миття волосся</p>
+                       <p class="price-haircut">Від 33 $ 
+                        <span class="time-haircut">5 хвилин</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">Укладання волосся без урахування матеріалу</p>
+                       <p class="price-haircut">Від 70 $ 
+                        <span class="time-haircut">15 хвилин</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">Камуфлювання бороди</p>
+                       <p class="price-haircut">Від 80 $ 
+                        <span class="time-haircut">1 година</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+
+                    <li class="list-li">
+                        <p class="text-haircut">Камуфлювання сивини</p>
+                       <p class="price-haircut">Від 100 $ 
+                        <span class="time-haircut">1 година</span></p>
+                       <button type="button" class="btn-haircut">
+                       <svg class="plus">
+                        <use href="./symbol-defs.svg#icon-untitled" width="11" height="25"></use>
+                       </svg>
+                        </button>
+                    </li>
+                 
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

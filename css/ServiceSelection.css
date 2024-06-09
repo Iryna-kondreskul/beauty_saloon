@@ -1,0 +1,176 @@
+:root{
+    --primery-text-color:#191D23;
+    --text-choise: "Manrope", sans-serif;
+    --text-button:#ffffff;
+}
+
+
+.blok-services{
+    /* outline: 0.5px solid rgb(117, 71, 255); */
+
+
+   display: inline-flex;
+   align-items: center;
+   text-decoration: none;
+
+   /* height: 812px; */
+    width: 360px;
+   
+   padding:auto;
+   margin:auto;
+   margin-bottom: 40px;
+}
+
+.input-services{
+    margin-left: 25px;
+}
+
+/* ==== випадаючий список====== */
+.submenu{
+   /* position: absolute; */
+   
+   margin-top: 32px;
+   margin-bottom: 32px;
+
+   display: none;
+   text-decoration: none;
+}
+
+
+.menu{
+    outline: 0.5px solid rgb(117, 71, 255);
+    margin-bottom: 32px;
+
+
+    /* display: block; */
+    /* gap: 8px; */
+    /* align-items: center; */
+    /* text-decoration: none; */
+
+    /* font-family: var(--text-choise);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primery-text-color); */
+}
+
+.menu:hover .submenu{
+    display: block;
+}
+
+.btn-symbol-right{
+    
+    /* margin-left: 118px; */
+ 
+}
+.btn-list{
+    outline: 0.2px solid rgb(218, 5, 40);
+    background-color: var(--text-button);
+
+    display: flex;
+    border: none;
+    width: 324px;
+    height: 27px;
+
+    align-items: center;
+    text-decoration: none;
+
+    font-family: var(--text-choise);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primery-text-color);
+}
+
+/* приклад */
+.drop-down-list-btn{
+    outline: 0.2px solid rgb(218, 5, 40);
+    background-color: #ffffff;
+    display: flex;
+    border: none;
+    width: 324px;
+    height: 27px;
+    margin-bottom: 32px;
+
+    /* gap: 8px; */
+    align-items: center;
+    text-decoration: none;
+
+    font-family: var(--text-choise);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primery-text-color);
+}
+
+/* приклад */
+.supplies{
+    margin-left:110px;
+}
+
+
+/* ============= випадаючий список ================ */
+.list-li{
+   
+    width: 354px;
+    height: 90px;
+  
+    margin-bottom: 20px;
+
+    border-radius: 4px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    background-color: var(--text-button);
+    border: 1px solid  #eef0f1;
+    /* cursor: pointer;  */
+}
+
+/* кнопка стрижка */
+.btn-haircut{
+    margin-right: 13px;
+    margin-left: 309px;
+    margin-top: -40px;
+    /* margin-bottom: 29px; */
+    padding-left: 10px;
+    padding-top: 4px;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%; 
+
+    border:none;
+    /* background-color: aqua; */
+    background-color: rgba(238, 240, 241, 1);
+    background-size:contain; 
+    cursor: pointer;
+
+}
+
+
+.text-haircut{
+    margin-left: 20px;
+    margin-top: 17px;
+   
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--primery-text-color);
+}
+
+.price-haircut{
+    margin-left: 20px;
+    margin-top: 7px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:var(--primery-text-color); 
+}
+
+.time-haircut{
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #919191;
+}
+
+
+
+
+
+
