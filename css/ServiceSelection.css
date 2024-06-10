@@ -63,7 +63,7 @@
  
 }
 .btn-list{
-    outline: 0.2px solid rgb(218, 5, 40);
+    /* /* outline: 0.2px solid rgb(218, 5, 40); */
     background-color: var(--text-button);
 
     display: flex;
@@ -77,7 +77,7 @@
     font-family: var(--text-choise);
     font-weight: 700;
     font-size: 20px;
-    color: var(--primery-text-color);
+    color: var(--primery-text-color); 
 }
 
 /* приклад */
